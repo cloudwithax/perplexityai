@@ -4,7 +4,7 @@ from time import sleep, time
 from threading import Thread
 from json import loads, dumps
 from random import getrandbits
-from websocket import WebSocketApp
+from websockets import WebSocketApp
 from requests import Session, get, post
 
 class Labs:
